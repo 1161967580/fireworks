@@ -30,20 +30,7 @@ html,body{
   </div>
 </div>
 <script>
-window.onload=function () {
-	let oA=document.querySelector("#a1");
-	let timer=null;
-	function autoPlay() {
-		if (oA.paused) {
-			oA.paused=false;
-			oA.volume=0.5;
-			oA.play();
-		}else {
-			clearInterval(timer);
-		}
-	}
-	timer=setInterval(autoPlay,1);
-}
+
 function initVars(){
 
 	pi=Math.PI;
